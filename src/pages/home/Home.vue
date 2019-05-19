@@ -1,7 +1,6 @@
 <template>
-   <div class="ce">
+   <div>
       <home-header></home-header>
-   	  hello word
    </div>
 </template>
 <script>
