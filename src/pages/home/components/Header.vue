@@ -1,20 +1,23 @@
 <template>
   <div class="header">
-    <div class='header-left'>返回</div>
+    <div class='header-left'>
+      <span class="icontfont">&#xe624;</span>
+    </div>
     <div class='header-input'>输入</div>
     <div class='header-right'>城市</div>
   </div>
 </template>
 <script>
 export default {
-  name: 'HomeHeader',
+  name:'HomeHeader'
 }
 </script>
-<style lang='stylus'  scoped>
+<style lang='stylus' scoped>
+  @import '~styles/varibles.styl'
   .header
     display:flex
     line-height:.86rem
-    background:#00bcd4
+    background:$bgColor
     color:#fff
     .header-left
       width:.64rem
