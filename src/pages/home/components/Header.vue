@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <div class='header-left'>
-      <span class="icontfont">&#xe624;</span>
+      <span class="iconfont">&#xe65b;</span>
     </div>
     <div class='header-input'>输入</div>
     <div class='header-right'>城市</div>
@@ -9,7 +9,7 @@
 </template>
 <script>
 export default {
-  name:'HomeHeader'
+  name: 'HomeHeader'
 }
 </script>
 <style lang='stylus' scoped>

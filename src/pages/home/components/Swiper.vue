@@ -9,33 +9,32 @@
         <img class="swiper-img" src="https://imgs.qunarzz.com/p/tts9/1807/67/ca524c0ddc372302.jpg_r_390x260x90_be327f2e.jpg" alt="">
       </swiper-slide>
       <div class="swiper-pagination"  slot="pagination"></div>
-      <div class="swiper-button-prev" slot="button-prev"></div>
-      <div class="swiper-button-next" slot="button-next"></div>
       <div class="swiper-scrollbar"   slot="scrollbar"></div>
     </swiper>
   </div>
 </template>
 <script>
 export default {
-    name:'HomeSwiper',
-    data () {
-      return {
-        swiperOption:{
-          pagination:'.swiper-pagination'
-        }
+  name: 'HomeSwiper',
+  data () {
+    return {
+      swiperOption: {
+        pagination: '.swiper-pagination',
+        loop: true
       }
     }
+  }
 }
 </script>
 <style lang="stylus" scoped>
   // scoped 只作用于当前的页面 swiper组件是main页面的注册组件，所有不能使用css>>>是穿透动画，不受当前页面限制
-  .wrapper >>> .swiper-pagination-bullet-active
-    background:#fff 
+  .wrapper>>>.swiper-pagination-bullet-active
+    background:#fff
     .wrapper
       overflow hidden
       width:100%
       height:0
-      padding-bottom:30% 
+      padding-bottom:30%
       background:#eee
       .swiper-img
         width 100%
